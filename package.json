@@ -1,0 +1,29 @@
+{
+  "name": "notion2gcalendar",
+  "version": "1.0.0",
+  "description": "notion calendar to google calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fhwang0926/Notion2gCalendar.git"
+  },
+  "keywords": [
+    "notion"
+  ],
+  "author": "donghwa.dev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fhwang0926/Notion2gCalendar/issues"
+  },
+  "homepage": "https://github.com/Fhwang0926/Notion2gCalendar#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "@notionhq/client": "^2.2.8",
+    "googleapis": "105",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43"
+  }
+}
